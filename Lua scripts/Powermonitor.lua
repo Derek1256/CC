@@ -559,7 +559,7 @@ local function drawL13(xPos, yPos)
 end
 
 local function drawBox(xMin, xMax, yMin, yMax, title)
-	mon.setBackgroundColor(colors.gray)
+	mon.setBackgroundColor(colors.purple)
 	for xPos = xMin, xMax, 1 do
 		mon.setCursorPos(xPos, yMin)
 		mon.write(" ")
