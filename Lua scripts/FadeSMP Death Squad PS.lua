@@ -1079,7 +1079,7 @@ end
 local function drawAll()	
 	while true do
 		mon.clear()
-		versionText = "Version "..version..""
+		versionText = "Verison "..version..""
 		verPos = 51 - string.len(versionText)
 		mon.setCursorPos(verPos,26)
 		mon.setTextColor(colors.red)
